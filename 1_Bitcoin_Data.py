@@ -18,7 +18,7 @@ end_date = datetime.date(2020, 11, 9)
 # Generate a list of dates
 date_range = pd.date_range(start_date, end_date)
 
-BASE = Path('/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo/')
+BASE = Path('PATH/Bitcoin_Redo/')
 
 # Base URL for downloading the files
 base_url = "https://gz.blockchair.com/bitcoin/blocks/"
@@ -26,7 +26,7 @@ base_url = "https://gz.blockchair.com/bitcoin/blocks/"
 
 # Directory to save the downloaded compressed gz_files
 #save_dir = "/data/gz_files/"  # Update this to your desired directory
-save_dir = '/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo/gz_files/'
+save_dir = 'PATH/Bitcoin_Redo/gz_files/'
 
 for single_date in tqdm(date_range):
     file_date = single_date.strftime("%Y%m%d")  # Format the date as YYYYMMDD
