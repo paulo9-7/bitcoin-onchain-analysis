@@ -26,7 +26,7 @@ import pandas as pd
 from pathlib import Path
 from scipy.ndimage import gaussian_filter1d
 
-BASE = Path("/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo")
+BASE = Path("PATH/Bitcoin_Redo")
 
 BLOCKS_FILE = BASE / "tsv_files/Bitcoin_Combined_20191111_20201109.tsv"
 BTC_FILE = BASE / "BTC-USD.tsv"
