@@ -19,10 +19,10 @@ import matplotlib.dates as mdates
 from pathlib import Path
 from scipy.ndimage import gaussian_filter1d
 
-BASE = Path("/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo")
+BASE = Path("PATH/Bitcoin_Redo")
 MERGED_FILE = BASE / "BTC-USD_df2.tsv"
 BLOCKS_FILE = Path(
-    "/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/"
+    "PATH"
     "tsv_files/Bitcoin_Combined_20191111_20201109.tsv"
 )
 FIG_DIR = BASE / "figures"          # set SAVE_FIGS=True to write PNGs here
