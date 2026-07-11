@@ -29,7 +29,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-BASE = Path("/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo")
+BASE = Path("PATH/Bitcoin_Redo")
 DATA_FILE = BASE / "BTC-USD_df2.tsv"   # output of 02_build_features.py
 
 # Raw daily block metrics + price (the trustworthy inputs).
