@@ -45,7 +45,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # --- Configuration -----------------------------------------------------------
 
-BASE = Path("/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo")
+BASE = Path("PATH/Bitcoin_Redo")
 DATA_FILE = BASE / "BTC-USD_df2.tsv"
 
 USE_SMOOTHED = True      # True reproduces the original; False models raw series
