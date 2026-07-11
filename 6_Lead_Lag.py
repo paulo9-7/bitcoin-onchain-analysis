@@ -46,7 +46,7 @@ except ImportError:
 
 # --- Configuration -----------------------------------------------------------
 
-BASE = Path("/Users/pauloconnor/Desktop/py.scripts/Bitcoin tsv/Bitcoin_Redo")
+BASE = Path("PATH/Bitcoin_Redo")
 DATA_FILE = BASE / "BTC-USD_df2.tsv"
 PRICE_COL = "Adj Close"
 
